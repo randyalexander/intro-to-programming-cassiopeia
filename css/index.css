@@ -1,0 +1,117 @@
+body {
+    text-align: center;
+}
+/* header {
+    background-color: orange;
+} */
+header h1 {
+    background-color: purple;
+    border-bottom: 1px solid gray;
+    border-radius: 12px;
+    font-size: 90px;
+}
+p {
+    font-size: 20px;
+}
+
+/* 
+CSS Universal Selector 
+* {
+    margin: 0;
+    padding: 0;
+    color: red;
+} 
+*/
+
+footer {
+    background-color: lightcoral;
+    border-radius: 5px;
+}
+a:link {
+    color: darkblue;
+    background-color: peachpuff;
+    text-decoration: none;
+}
+a:visited {
+    color: darkseagreen
+}
+a:hover {
+    text-decoration: underline;
+}
+a:focus {
+    color:white;
+    background-color: orange;
+}
+img {
+    max-width: 500px;
+    border-radius: 20px;
+}
+#experience {
+    border: 3px solid red;
+    list-style-position: inside;
+    border-radius: 12px;
+}
+#experience li {
+    list-style-type: circle;
+}
+.skills-list {
+    background-color: aliceblue;
+    padding: 36px;
+  
+}
+.top-experience {
+    font-weight: bold;
+    background-color: teal;
+    color: papayawhip;
+}
+.background-info {
+    border: 2px solid steelblue;
+    border-radius: 12px;
+    padding: 20px;
+}
+.special {
+    text-transform: uppercase;
+    background-color: navy;
+}
+#about {
+    font-size: 20px;
+}
+#project-section ul {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    list-style-type: none;
+}
+li {
+    letter-spacing: 3px;
+    list-style-type: none;
+}
+ul.navbar {
+    display:block;
+}
+li.navbar {
+    display: inline-block;
+    padding: 10px;
+    width: 15%;
+    background-color: papayawhip;
+}
+
+@media print {
+    body {
+        min-height: auto;
+    }
+    img {
+        max-width: 400px;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    li.navbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        flex-direction: column;
+        background-color: white;
+    }
+    img {
+        max-width: 300px;
+    }
+}
